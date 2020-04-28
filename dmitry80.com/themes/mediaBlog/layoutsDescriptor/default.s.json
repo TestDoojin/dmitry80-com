@@ -1,0 +1,44 @@
+{
+  "maxArticles": 30,
+  "layouts": [
+    {
+      "name": "photo/photo",
+      "count": 1,
+      "repetition": 1,
+      "attr": {
+        "headlines": {
+          "author" : false
+        }
+      }
+    },
+    {
+      "name": "photo/photo_grid_2",
+      "count": 2,
+      "repetition": 1,
+      "attr": {
+        "count": 2,
+        "headlines": {
+          "author" : false
+        }
+      }
+    },
+    {
+      "name": "newspaper/pill",
+      "count": 1,
+      "attr": {
+        "headlines": {
+          "author" : false
+        }
+      }
+    },
+    {
+      "name": "newspaper/thumb",
+      "count": 3,
+      "attr": {
+        "headlines": {
+          "author" : false
+        }
+      }
+    }
+  ]
+}
