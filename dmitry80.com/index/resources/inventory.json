@@ -1,0 +1,9 @@
+{
+  "placements" : { },
+  "adServers" : {
+    "doubleclick321321" : {
+      "slot" : "231321",
+      "type" : "doubleclick"
+    }
+  }
+}
