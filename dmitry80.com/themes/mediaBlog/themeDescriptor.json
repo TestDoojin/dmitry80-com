@@ -1,0 +1,6 @@
+{
+  "name" : "mediaBlog",
+  "tenantName" : "www.dmitry80.com",
+  "useLayoutDescriptor" : true,
+  "core" : false
+}

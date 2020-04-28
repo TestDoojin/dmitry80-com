@@ -1,0 +1,37 @@
+{
+  "name" : "index",
+  "title" : "dmitry80.com",
+  "uri" : "www.dmitry80.com",
+  "userInterface" : {
+    "themeName" : "mediaBlog",
+    "resourcesHost" : "https://bc.marfeelcache.com",
+    "lang" : "en",
+    "features" : {
+      "useUiJson" : true,
+      "useMetricsJson" : true,
+      "useInventoryJsonInTouch" : true,
+      "twisterJavaEnabled" : true,
+      "forceXL" : true,
+      "useInventoryAds" : "remote",
+      "enableAdDealerInMosaic" : true,
+      "lateralMenuShareOptions" : true
+    }
+  },
+  "configuration" : {
+    "whiteCollarScript" : "index/src/whiteCollar/main.js",
+    "cronRefresh" : "0 1 0 1/1 * ? *",
+    "feedRipper" : "puppeteerRipper"
+  },
+  "sectionDefinitions" : [ {
+    "name" : "home",
+    "styles" : "photo",
+    "title" : "Home",
+    "feedDefinitions" : [ {
+      "uri" : "http://www.dmitry80.com",
+      "alibabaDefinition" : { }
+    } ],
+    "configuration" : {
+      "cronRefresh" : "0 0/3 * 1/1 * ? *"
+    }
+  } ]
+}
